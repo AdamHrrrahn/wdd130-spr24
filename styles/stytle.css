@@ -1,21 +1,20 @@
+.content {
+    max-width: 1600px;
+}
+
 body {
     margin: 0;
+    background-color: #fbfefe;
 }
 
 nav, footer {
-    background-color: steelblue;
-    color: white;
+    background-color: #2176ae;
     padding: 10px;
 }
 
 footer p {
     font-size: 20px;
     margin: 20px auto;
-}
-
-a:hover {
-    background-color: white;
-    color: steelblue;
 }
 
 img{
@@ -27,4 +26,49 @@ img{
     font-size: 0;
     /* text-align: center; */
     margin: 0 auto;
+}
+
+nav a, footer a{
+    text-align: center;
+    color: #1a1a3b;
+}
+
+nav a:hover, .book:hover, .join:hover, footer a:hover{
+    background-color: #ffbf00;
+    color: #2176ae;
+}
+
+.book, .join{
+    background-color: #2176ae;
+    color: #1a1a3b;
+}
+
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #fbfefe;
+}
+
+.msg {
+    border-color: #1a1a3b;
+}
+
+.home_title {
+    color: #1a1a3b;
+}
+
+h4 {
+    color: #1a1a3b;
 }
