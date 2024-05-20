@@ -1,0 +1,49 @@
+
+
+body{
+    text-align: center;
+    margin: 0;
+    background-color: #5ca1d7;
+    font-size: 2em;
+    padding: 0 30%;
+}
+
+#education:hover, h4, ol{
+    color: black;
+    font-family: "darker Grotesque", serif;
+}
+
+ol {
+    margin: 5% auto;
+    display: table;
+    
+}
+
+img {
+    /* width: 15%; */
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+li{
+    text-align: left;
+    margin: 10px auto;
+    font-family: "darker Grotesque", serif;
+}
+
+h1, h2, h3, h5 {
+    color: white;
+    margin: 10px auto;
+}
+
+#quote {
+    margin: 0 10%;
+}
+
+h1{
+    font-size: 4em;
+    margin: 5% auto;
+    font-family: "Coromont Garamond", serif;
+
+}
