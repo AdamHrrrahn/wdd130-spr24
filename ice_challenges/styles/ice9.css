@@ -1,0 +1,92 @@
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    text-align: center;
+}
+main{
+    border-radius: 3vw;
+    margin: 1vw auto;
+    width: 34%;
+    background-color: white;
+    overflow: hidden;
+    padding: 0;
+}
+main p{
+    color: #8b808b;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin: 3vw;
+}
+main h2{
+    color: #3f5b8b;
+    margin-top: 2vw;
+    margin-bottom: 0;
+    font-size: 2vw;
+}
+main h1{
+    font-size: 4.5vw;
+    margin: 0;
+}
+main img{
+    width: 100%;
+}
+#foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #808080;
+    column-gap: 0.2vw;
+}
+.pair{
+    background-color: #3f5b8b;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 9vw;
+    min-height: 90px;
+}
+.pair h3 {
+    grid-row: 1/2;
+    margin-top: auto;
+    margin-bottom: 0;
+    color: white;
+    font-size: 2vw;
+}
+.pair h2 {
+    grid-row: 2/3;
+    color: white;
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 883px) {
+    main {
+        border-radius: 26.49px;
+        margin: 8.83px auto;
+        width: 300px;
+    }
+    main p{
+        font-size: 22.075px;
+        margin: 26.49px;
+    }
+    main h2{
+        margin-top: 17.66px;
+        font-size: 17.66px;
+    }
+    main h1{
+        font-size: 39.735px;
+    }
+    .pair {
+        height: 79.47px;
+    }
+    .pair h2{
+        font-size: 9.83px;
+    }
+    .pair h3{
+        font-size: 17.66px;
+    }
+    #foot{
+        column-gap: 1.766px;
+    }
+}
